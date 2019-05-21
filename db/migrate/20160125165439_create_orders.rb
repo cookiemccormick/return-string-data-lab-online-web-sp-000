@@ -3,7 +3,6 @@ class CreateOrders < ActiveRecord::Migration
     create_table :orders do |t|
       t.integer :customer_id
       t.integer :invoice_id
-
       t.timestamps null: false
     end
   end
